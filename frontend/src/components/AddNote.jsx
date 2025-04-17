@@ -11,7 +11,7 @@ const navigate = useNavigate();
 const saveNote = async (e)=> {
     e.preventDefault();
     try {
-        await axios.post(`${BASE_URL}/notes`,{
+        await axios.post(`${BASE_URL}/Notes`,{
             title,
             note
         });

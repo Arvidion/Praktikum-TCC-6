@@ -4,10 +4,10 @@ import { getNotes, getNoteById, createNote, updateNote, deleteNote} from "../con
 const router = express.Router();
 
 //buat endpoint
-router.get('/Notes', getNotes);
-router.get('/Notes/:id', getNoteById);
-router.post('/Notes', createNote);
-router.patch('/Notes/:id', updateNote);
-router.delete('/Notes/:id', deleteNote);
+router.get('/notes', getNotes);
+router.get('/notes/:id', getNoteById);
+router.post('/notes', createNote);
+router.patch('/notes/:id', updateNote);
+router.delete('/notes/:id', deleteNote);
 
 export default router;

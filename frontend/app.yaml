@@ -1,5 +1,5 @@
 runtime: nodejs20
-service: backend
+service: notes-067
 instance_class: F1
 
 handlers:

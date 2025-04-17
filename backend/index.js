@@ -9,4 +9,4 @@ app.use(cors());
 app.use(express.json());
 app.use(UserRoute);
 
-app.listen(5000,()=> console.log("Server Running on Port 5000"));
+app.listen(5002,()=> console.log("Server Running on Port 5002"));
